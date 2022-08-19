@@ -18,10 +18,13 @@ body{
 .box .calculadora{
     display: grid;
     place-items: center;
-    background: green;
+    background: rgb(160, 3, 0);
     height: 500px;
     width: 400px;
-    border: 1px solid blue;
+    border: #c96b00;
+    box-shadow: 0 0 10px #c96b00, 
+    0 0 10px #c96b00, 
+    0 0 10px #c96b00;
 }
 
 .calculadora input{
